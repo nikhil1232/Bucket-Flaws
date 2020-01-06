@@ -28,8 +28,8 @@ Usage: -u for single url
 
 Eg: 
 
-**./bucketflaw.sh -u bucketname**&nbsp;
-**./bucketflaw.sh -f filepath**&nbsp;
+**./bucketflaw.sh -u bucketname**\
+**./bucketflaw.sh -f filepath**
 
 ![Image of BucketFlaws -u](https://github.com/nikhil1232/Bucket-Flaws/blob/master/images/url.png)
 
