@@ -1,7 +1,8 @@
 # Bucket Flaws
 Bucket Flaws: A Simple Lightweight Script to Check for Common S3 Bucket Misconfigurations
 
-![Image of BucketFlaws](https://github.com/nikhil1232/Bucket-Flaws/images/upload.png)
+![Image of BucketFlaws](https://github.com/nikhil1232/Bucket-Flaws/blob/master/images/upload.png)
+
 
 This is a very small and light bash script that can basically take a list of bucket names as well a single bucket and perform some common security checks.
 
