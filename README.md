@@ -1,2 +1,27 @@
-# Bucket-Flaws
+# Bucket Flaws
 Bucket Flaws: A Simple Lightweight Script to Check for Common S3 Bucket Misconfigurations
+
+This is a very small and light bash script that can basically take a list of bucket names as well a single bucket and perform some common security checks.
+
+#Misconfigurations
+
+1) Unauthenticated Bucket Access (Directory Listing)
+
+2) Authenticated Bucket Access (This means being authenticated to your own aws account)
+
+- Checks for Directory Listing
+- If Directory Listing is present it also checks for some interesting files/folders based on the keywords provided in the sensitive.txt
+- Tries to fetch Bucket Access Control List
+- Tries to upload a file (sample.png)
+
+#Usage
+
+pip install -r requirements.txt
+
+Usage: -u for single url
+-f for file containing the list of all the buckets
+-h for help
+Eg: ./bucketflaw.sh -u bucketname
+    ./bucketflaw.sh -f filepath
+
+NOTE: For Authenticated Check you need to make sure you have configured your aws cli.
