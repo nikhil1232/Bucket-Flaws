@@ -1,10 +1,10 @@
 # Bucket Flaws (S3 Bucket Mass Scanner)
-## Bucket Flaws: A Simple Lightweight Script to Check for Common S3 Bucket Misconfigurations
+## Bucket Flaws: A Simple Lightweight Script that can take a list of bucket names and check for Common S3 Bucket Misconfigurations
 
 ![Image of BucketFlaws](https://github.com/nikhil1232/Bucket-Flaws/blob/master/images/upload.png)
 
 
-This is a very small and light bash script that can basically take a list of bucket names as well a single bucket and perform some common security checks.
+This is a very small and light bash script that can take both a list of buckets as well a single bucket and perform some basic security checks.
 
 ## Misconfigurations
 
@@ -13,7 +13,7 @@ This is a very small and light bash script that can basically take a list of buc
 2) Authenticated Bucket Access (This means being authenticated to your own aws account)
 
 - Checks for Directory Listing
-- If Directory Listing is present it also checks for some interesting files/folders based on the keywords provided in the sensitive.txt
+- If Directory Listing is present then it will also check for some interesting files/folders based on the keywords provided in the sensitive.txt
 - Tries to fetch Bucket Access Control List
 - Tries to upload a file (sample.png)
 
@@ -35,4 +35,7 @@ Eg:
 
 ![Image of BucketFlaws -f](https://github.com/nikhil1232/Bucket-Flaws/blob/master/images/target-file.png)
 
-NOTE: For Authenticated Check you need to make sure you have configured your aws cli.
+**NOTE: For Authenticated Check you need to make sure you have configured your aws cli.**
+
+Refer this link for configuring AWS CLI:
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
