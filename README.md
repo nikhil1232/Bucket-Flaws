@@ -22,7 +22,10 @@ This is a very small and light bash script that can basically take a list of buc
 Usage: -u for single url
 -f for file containing the list of all the buckets
 -h for help
-Eg: **./bucketflaw.sh -u bucketname**
-    **./bucketflaw.sh -f filepath**
+
+Eg: 
+
+**./bucketflaw.sh -u bucketname**
+**./bucketflaw.sh -f filepath**
 
 NOTE: For Authenticated Check you need to make sure you have configured your aws cli.
