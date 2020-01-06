@@ -31,4 +31,8 @@ Eg:
 **./bucketflaw.sh -u bucketname**
 **./bucketflaw.sh -f filepath**
 
+(https://github.com/nikhil1232/Bucket-Flaws/blob/master/images/url.png)
+
+(https://github.com/nikhil1232/Bucket-Flaws/blob/master/images/target-file.png)
+
 NOTE: For Authenticated Check you need to make sure you have configured your aws cli.
