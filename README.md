@@ -1,5 +1,5 @@
-# Bucket Flaws
-Bucket Flaws: A Simple Lightweight Script to Check for Common S3 Bucket Misconfigurations
+# Bucket Flaws (S3 Bucket Mass Scanner)
+## Bucket Flaws: A Simple Lightweight Script to Check for Common S3 Bucket Misconfigurations
 
 ![Image of BucketFlaws](https://github.com/nikhil1232/Bucket-Flaws/blob/master/images/upload.png)
 
