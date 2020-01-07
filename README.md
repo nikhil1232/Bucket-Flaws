@@ -12,24 +12,51 @@ This is a very small and light bash script that can take both a list of buckets 
 
 2) Authenticated Bucket Access (This means being authenticated to your own aws account)
 
+### Bucket Level Checks
+
 - Checks for Directory Listing
-- If Directory Listing is present then it will also check for some interesting files/folders based on the keywords provided in the sensitive.txt
-- Tries to fetch Bucket Access Control List
+- Checks for some interesting files/folders based on the keywords provided in the sensitive.txt
+- Tries to fetch the Bucket ACL
 - Tries to upload a file (sample.png)
+- Tries to dump the whole bucket (optional -d flag)
+- Tries to modify the Bucket ACL (optional -p flag)
+
+### Object Level Checks
+
+- Tries to fetch object ACL
+- Tries to fetch object metadata
+- Tries to dump the object (optional)
+- Tries to modify the object ACL
 
 ## Usage
 
 ### Install Reqirements:
 **pip install -r requirements.txt**
 
-Usage: -u for single url
+Usage:
+-u for single bucket
 -f for file containing the list of all the buckets
+-o for performing object level analysis
+-p for changing the bucket ACL if allowed
+-d for dumping the whole bucket if allowed
 -h for help
 
-Eg: 
+Eg: **./bucketflaws.sh -u bucketname**\
+    **./bucketflaws.sh -f filepath**\
 
-**./bucketflaw.sh -u bucketname**\
-**./bucketflaw.sh -f filepath**
+For performing object level checks as well:
+    **./bucketflaws.sh -u bucketname -o**\
+
+For modifying Bucket ACL if possible:
+    **./bucketflaws.sh -u bucketname -o -p**\
+
+Performs all the checks as well as tries to dump the whole bucket(Recommended way):
+    **./bucketflaws.sh -u bucketname -o -p -d**\
+
+Same as above but for a list of buckets:
+    **./bucketflaws.sh -f filepath -o -p -d**\
+
+
 
 ![Image of BucketFlaws -u](https://github.com/nikhil1232/Bucket-Flaws/blob/master/images/url.png)
 
