@@ -42,19 +42,19 @@ Usage:
 -h for help
 
 Eg: **./bucketflaws.sh -u bucketname**\
-    **./bucketflaws.sh -f filepath**\
+    **./bucketflaws.sh -f filepath**
 
-For performing object level checks as well:
-    **./bucketflaws.sh -u bucketname -o**\
+For performing object level checks as well:<br/>
+    **./bucketflaws.sh -u bucketname -o**
 
-For modifying Bucket ACL if possible:
-    **./bucketflaws.sh -u bucketname -o -p**\
+For modifying Bucket ACL if possible:<br/>
+    **./bucketflaws.sh -u bucketname -o -p**
 
-Performs all the checks as well as tries to dump the whole bucket(Recommended way):
-    **./bucketflaws.sh -u bucketname -o -p -d**\
+Performs all the checks as well as tries to dump the whole bucket(Recommended way):<br/>
+    **./bucketflaws.sh -u bucketname -o -p -d**
 
-Same as above but for a list of buckets:
-    **./bucketflaws.sh -f filepath -o -p -d**\
+Same as above but for a list of buckets:<br/>
+    **./bucketflaws.sh -f filepath -o -p -d**
 
 
 
