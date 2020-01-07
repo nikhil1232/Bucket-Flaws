@@ -58,9 +58,9 @@ Same as above but for a list of buckets:<br/>
 
 
 
-![Image of BucketFlaws -u](https://github.com/nikhil1232/Bucket-Flaws/blob/master/images/url.png)
+![Image of BucketFlaws -u](https://raw.githubusercontent.com/nikhil1232/Bucket-Flaws/master/images/bucket.png)
 
-![Image of BucketFlaws -f](https://github.com/nikhil1232/Bucket-Flaws/blob/master/images/target-file.png)
+![Image of BucketFlaws -f](https://raw.githubusercontent.com/nikhil1232/Bucket-Flaws/master/images/bucket-list.png)
 
 **NOTE: For Authenticated Check you need to make sure you have configured your aws cli.**
 
