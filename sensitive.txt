@@ -10,6 +10,8 @@
 .db
 .xls
 .csv
+git
+gemlock
 aws
 hint
 key
@@ -18,9 +20,8 @@ admin
 password
 creds
 credentials
-ssh
 user
-wp-config
+config
 backup
 bank
 secret
