@@ -8,20 +8,23 @@ This is a very small and light bash script that can take both a list of buckets 
 
 ## Misconfigurations
 
-1) Unauthenticated Bucket Access (Directory Listing)
+### 1) Unauthenticated Bucket Access (Directory Listing)
 
-2) Authenticated Bucket Access (This means being authenticated to your own aws account)
+- Checks for Directory Listing
+- Tries to upload a file (upload.png)
 
-### Bucket Level Checks
+### 2) Authenticated Bucket Access (This means being authenticated to your own aws account)
+
+#### Bucket Level Checks
 
 - Checks for Directory Listing
 - Checks for some interesting files/folders based on the keywords provided in the sensitive.txt
 - Tries to fetch the Bucket ACL
-- Tries to upload a file (sample.png)
+- Tries to upload a file (bucket.png)
 - Tries to dump the whole bucket (optional -d flag)
 - Tries to modify the Bucket ACL (optional -p flag)
 
-### Object Level Checks
+#### Object Level Checks
 
 - Tries to fetch object ACL
 - Tries to fetch object metadata
