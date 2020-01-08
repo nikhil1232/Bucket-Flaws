@@ -8,12 +8,12 @@ This is a very small and light bash script that can take both a list of buckets 
 
 ## Misconfigurations
 
-### 1) Unauthenticated Bucket Access (Directory Listing)
+### 1) Unauthenticated Bucket Access
 
 - Checks for Directory Listing
 - Tries to upload a file (upload.png)
 
-### 2) Authenticated Bucket Access (This means being authenticated to your own aws account)
+### 2) Authenticated Bucket Access (This means being authenticated to any aws account)
 
 #### Bucket Level Checks
 
