@@ -65,24 +65,16 @@ Same as above but for a list of buckets:<br/>
 
 ![Image of BucketFlaws -f](https://raw.githubusercontent.com/nikhil1232/Bucket-Flaws/master/images/bucket-list.png)
 
+## Walkthrough
+
+[![Bucket-Flaws](https://i.ibb.co/ZS8YtG8/https-drive-google.jpg)](https://drive.google.com/file/d/1C56TP4ZB99b6vMcEI8vLxyfCHE-kCUgR/preview "Bucket-Flaws")
+
 **NOTE: For Authenticated Check you need to make sure you have configured your aws cli.**
 
 Refer this link for configuring AWS CLI:
 https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
 
-[![Bucket-Flaws](https://i.ibb.co/ZS8YtG8/https-drive-google.jpg)](https://drive.google.com/file/d/1C56TP4ZB99b6vMcEI8vLxyfCHE-kCUgR/preview "Bucket-Flaws")
 
-<figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1C56TP4ZB99b6vMcEI8vLxyfCHE-kCUgR/preview" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
 
-```html
 
-  
-  <iframe src="https://drive.google.com/file/d/1C56TP4ZB99b6vMcEI8vLxyfCHE-kCUgR/preview" ></iframe>
-  
-  <!--aloow full screen add tag -->
-  
-<iframe allowfullscreen="allowfullscreen" src="your_page_url/preview" ></iframe>
-```
 
