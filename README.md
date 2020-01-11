@@ -73,15 +73,13 @@ https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
 [![Bucket-Flaws](https://i.ibb.co/ZS8YtG8/https-drive-google.jpg)](https://drive.google.com/file/d/1C56TP4ZB99b6vMcEI8vLxyfCHE-kCUgR/preview "Bucket-Flaws")
 
 
-<!DOCTYPE html>
-<html>
-<body>
+```html
+
   
   <iframe src="https://drive.google.com/file/d/1C56TP4ZB99b6vMcEI8vLxyfCHE-kCUgR/preview" ></iframe>
   
   <!--aloow full screen add tag -->
   
 <iframe allowfullscreen="allowfullscreen" src="your_page_url/preview" ></iframe>
+```
 
-</body>
-</html>
