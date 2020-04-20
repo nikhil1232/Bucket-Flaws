@@ -44,20 +44,20 @@ Usage:
 -d for dumping the whole bucket if allowed
 -h for help
 
-Eg: <code>**./bucketflaws.sh -u bucketname**\</code></br>
+Eg: <code>**./bucketflaws.sh -u bucketname**</code></br>
    <code> **./bucketflaws.sh -f filepath**</code></br>
 
 For performing object level checks as well:<br/>
-    <code>**./bucketflaws.sh -u bucketname -o**</code></br>
+   </br> <code>**./bucketflaws.sh -u bucketname -o**</code></br>
 
 For modifying Bucket ACL if possible:<br/>
     <code>**./bucketflaws.sh -u bucketname -o -p**</code></br>
 
 Performs all the checks as well as tries to dump the whole bucket(Recommended way):<br/>
-   <code> **./bucketflaws.sh -u bucketname -o -p -d**</code></br>
+  </br> <code>**./bucketflaws.sh -u bucketname -o -p -d**</code></br>
 
 Same as above but for a list of buckets:<br/>
-   <code> **./bucketflaws.sh -f filepath -o -p -d**</code></br>
+ </br>  <code>**./bucketflaws.sh -f filepath -o -p -d**</code></br>
 
 
 
