@@ -34,7 +34,7 @@ This is a very small and light bash script that can take both a list of buckets 
 ## Usage
 
 ### Install Reqirements:
-**pip install -r requirements.txt**
+<code>**pip install -r requirements.txt**</code>
 
 Usage:
 -u for single bucket
@@ -44,7 +44,7 @@ Usage:
 -d for dumping the whole bucket if allowed
 -h for help
 
-Eg: <code>**./bucketflaws.sh -u bucketname**</code></br>
+Eg:</br> <code>**./bucketflaws.sh -u bucketname**</code></br>
    <code> **./bucketflaws.sh -f filepath**</code></br>
 
 For performing object level checks as well:<br/>
