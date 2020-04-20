@@ -58,6 +58,9 @@ Performs all the checks as well as tries to dump the whole bucket(Recommended wa
 
 Same as above but for a list of buckets:<br/>
  <code>**./bucketflaws.sh -f filepath -o -p -d**</code></br>
+ 
+For storing the output to a txt file:<br/>
+ <code>**./bucketflaws.sh -f filepath -o -p -d | tee output.txt && sed -i 's/\x1B\[[0-9;]\+[A-Za-z]//g' output.txt** </code></br>
 
 
 
