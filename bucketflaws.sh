@@ -142,6 +142,15 @@ else
 fi
 
 
+echo -e "\n\e[30;48;5;82mTrying to fetch Bucket Policy . . .${RESET}\n"
+xp=$(aws s3api get-bucket-policy --bucket $bucket 2>&1)
+if [[ $xp == *"An error"* ]]; then
+  echo -e "${RED}Failed!!!${RESET}\n"
+else
+  echo -e "${WHITE}$xp${RESET}"  
+fi
+
+
 echo -e "\n\e[30;48;5;82mTesting for file upload . . .${RESET}\n"
 y=$(aws s3 cp bucket.png s3://$bucket 2>&1)
 if [[ $y == *"upload failed"* ]]; then
@@ -262,7 +271,6 @@ while getopts :f:u:h name; do
 	   echo -e "\n${YEL}=======================================================================================${RESET}\n";;	
     esac
 done
-
 
 
 
